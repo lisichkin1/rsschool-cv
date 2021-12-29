@@ -13,7 +13,7 @@
 
 ***
 ## About me
-Я иван. Сейчас мне 22 года. Я обучаюсь на 4 курсе Саратовского Государственного Университета. Начал изучать программирование с университета, попробовал много языков, но остановился на front-end разработке, так-как хочется делать то, что пользователь сам может увидеть, покликать и взаимодействовать. 
+I'm Ivan. Now I am 22 years old. I am a 4th year student at Saratov State University. I started studying programming from university, tried many languages, but stopped at front-end development, the way I want to do what the user can see, click and interact with.
 
 ***
 ## Hard skills
