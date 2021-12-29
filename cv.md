@@ -50,6 +50,6 @@ Saratov State University. Faculty of Computer Science and Information Technology
 - Initial courses of [HTML Academy][2](HTML, CSS, JS)
 
 ***
-##Languages
+## Languages
 - __Russian - Native__
 - __English - B1__
