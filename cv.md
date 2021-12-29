@@ -5,7 +5,7 @@
 - __Locaton:__ Russia, Saratov
 - __Telegram:__ [@gr1ncb][1]
 - __email:__ <ivanofficiallis@gmail.com>
-- __Discord:__ lisichkin1#5849
+- __Discord:__ Lisichkin Ivan(@lisichkin1)
 
 [1]: https://t.me/gr1ncb "Telegram"
 [2]: https://htmlacademy.ru/study "academy"
