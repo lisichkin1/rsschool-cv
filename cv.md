@@ -1,4 +1,4 @@
-![foto](images/foto.jpg "Foto" )
+![photo](images/foto.jpg "Photo" )
 # Ivan Lisichkin
 
 ***
