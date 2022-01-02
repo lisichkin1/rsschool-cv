@@ -5,6 +5,9 @@
     margin: 0;
     padding: 0;
 }
+html {
+    scroll-behavior: smooth; 
+  }
 .body{
     background-color: #B4FAD2;
     display: flex;
@@ -37,7 +40,6 @@
     line-height: 45px;
     border-radius: 45px;
     margin: 10px 20px;
-    font-family: 'Montserrat', sans-serif;
     font-size: 11px;
     text-transform: uppercase;
     text-align: center;
@@ -74,14 +76,143 @@
     background-color: #28d892;
     padding: 40px;
 }
+.profile-text{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+.profile-text .photo-box{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profile-text .photo-box img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.profile-text h1{
+    font-size: 2em;
+    margin-top: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+.profile-text span{
+    font-size: 1em;
+    font-weight: 300;
+}
+.contacts .title-left{
+    color: black;
+    font-size: 1.5em;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.contacts .info{
+    color: black;
+    font-size: 1em;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-weight: 300;
+    line-height: 1.5em;
+    text-align: left;
+    
+}
+.contacts ul{
+    position: relative;
+}
+.contacts ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+}
+.contacts ul li .ico{
+    display: inline-block;
+    width: 30px;
+    color: black;
+}
+.link-cont{
+    text-decoration: none;
+}
+.contacts.education li{
+   margin-bottom: 20px; 
+}
+.contacts.education .year{
+    font-weight: 600;
+    font-size: 1.2em;
+    
+}
+.educationifo{
+    display: block;
+    line-height: 1.5em;
+}
 /*правая часть контейнера*/
 .main-container .rigt-side{
     position: relative;
     background-color: rgb(255, 255, 255);
     padding: 40px;
 }
+.about{
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #28d892;
+}
+.title-right{
+    color: black;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.about p{
+    line-height: 1.5em;
+}
+.skills{
+    margin-bottom: 50px;
 
-
+    border-bottom: 1px solid #28d892;
+}
+.skills .box{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 140px 1fr;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.skills .box .percent{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background-color: rgb(230, 230, 230);
+}
+.percent-full{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background-color: #28d892;
+}
+.code{
+    margin-bottom: 50px;
+    border-bottom: 1px solid #28d892;
+}
+.code-example{
+    background-color: rgb(230, 230, 230);
+}
 
 
 
@@ -91,4 +222,9 @@
     max-width: 1000px;
     min-height: 100px;
     background: rgb(255, 255, 255);
+}
+@media (max-width:1000px){
+    .main-container{
+        grid-template-columns: repeat(1,1fr);
+    }
 }
