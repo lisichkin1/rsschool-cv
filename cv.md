@@ -31,3 +31,15 @@ function findUniq(arr) {
   return arr.filter((element, index, array)=>array.indexOf(element) === array.lastIndexOf(element))[0]
 }
 ```
+
+***
+## Education
+- 2017-2022
+Saratov State University. Faculty of Computer Science and Information Technology, Direction - Computer Science and Computer Engineering
+- I had an internship at Exactpro as a tester
+- RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+
+***
+##Languages
+- __Russian - Native__
+- __English - B1__
