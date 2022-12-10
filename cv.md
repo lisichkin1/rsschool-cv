@@ -13,3 +13,21 @@
 ## About me
 I'm Ivan. Now I am 23 years old. I graduated from Saratov State University. I started studying programming at university, tried many languages, but stopped at front-end development, as I want to do what the user can see, click and interact with.
 
+***
+## Hard skills
+- __HTML__
+- __CSS, SCSS__
+- __JavaScript__
+- __Kubernetes(basic)__
+- __Git__
+- __Manual and automatic testing__
+- __Figma__
+
+***
+## Code example
+There is an array with some numbers. All numbers are equal except for one. Try to find it!
+```JS
+function findUniq(arr) {
+  return arr.filter((element, index, array)=>array.indexOf(element) === array.lastIndexOf(element))[0]
+}
+```
