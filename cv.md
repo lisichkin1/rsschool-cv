@@ -8,6 +8,7 @@
 - __Discord:__ lisichkin1#5849
 
 [1]: https://t.me/gr1ncb "Telegram"
+[2]: https://github.com/lisichkin1/diplom-travel/tree/main/travel "pet-project"
 
 ***
 ## About me
@@ -16,7 +17,7 @@ I'm Ivan. Now I am 23 years old. I graduated from Saratov State University. I st
 ***
 ## Hard skills
 - __HTML__
-- __CSS, SCSS__
+- __CSS, SCSS, Tailwind__
 - __JavaScript__
 - __Kubernetes(basic)__
 - __Git__
@@ -31,6 +32,11 @@ function findUniq(arr) {
   return arr.filter((element, index, array)=>array.indexOf(element) === array.lastIndexOf(element))[0]
 }
 ```
+
+***
+## Experience
+Now I work in the Yandex technical support service. I help users solve technical problems.
+There is also one [pet-project][2] to search for hotel rooms (React, Next.js).
 
 ***
 ## Education
