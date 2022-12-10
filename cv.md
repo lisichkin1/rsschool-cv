@@ -46,6 +46,6 @@ Saratov State University. Faculty of Computer Science and Information Technology
 - RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
 
 ***
-##Languages
+## Languages
 - __Russian - Native__
 - __English - B1__
